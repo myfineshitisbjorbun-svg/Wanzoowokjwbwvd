@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PROMPT BY WANZ</title>
+  <link rel="icon" href="https://i.postimg.cc/VNvV4Zsp/Gemini-Generated-Image-x4f2zrx4f2zrx4f2.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="bg-animation"></div>
+  <div class="particles" id="particles"></div>
+
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+  <nav class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="toggleMenu()">×</button>
+    <ul>
+      <li><a href="#" onclick="scrollToTop()">Home</a></li>
+      <li><a href="#searchInput" onclick="focusSearch()">Search Files</a></li>
+      <li><a href="#" onclick="scrollToTop()">All Prompts</a></li>
+      <li><a href="tel:+6285966198748">Contact Wanz</a></li>
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+  <div class="container">
+    <header>
+      <img src="https://i.postimg.cc/VNvV4Zsp/Gemini-Generated-Image-x4f2zrx4f2zrx4f2.jpg" alt="Logo" class="logo">
+      <h1 class="title">PROMPT BY WANZ</h1>
+      <p class="subtitle">
+        PROMPT JAILBREAK FREE, AUTHOR NYA WANZ.<br>
+        JANGAN GANTI CREDIT ATAU DIPERJUALBELIKAN KEMBALI SOLANYA INI FREE.<br>
+        YANG LU PERBUAT BUKAN TANGGUNG JAWAB GW
+      </p>
+    </header>
+
+    <div class="search-container">
+      <div class="search-wrapper">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="#777" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search files...">
+      </div>
+    </div>
+
+    <div class="grid" id="grid">
+      <!-- Card-card lo di sini, sama seperti sebelumnya -->
+      <!-- Contoh card 1 -->
+      <div class="card">
+        <div class="card-header">
+          <div class="file-icon"></div>
+          <div class="card-title">#001 - Grok Full Bypass</div>
+          <div class="card-desc">Jailbreak Grok tanpa filter moral, hukum, atau etika – kompatibel penuh Januari 2026</div>
+        </div>
+        <div class="download-wrapper">
+          <a href="grok-full-bypass.zip" class="download-btn" download>GET FILE</a>
+        </div>
+      </div>
+
+      <!-- Sisanya copy dari versi sebelumnya, atau tambah sendiri -->
+    </div>
+
+    <footer>
+      <p>Web bikinan wanz, owner dari XY Chan. Jangan tiru plek ketiplek tapi buat inspirasi atau referensi bisa aja tuh</p>
+      <p>©no copyright, by XY Chan community</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
